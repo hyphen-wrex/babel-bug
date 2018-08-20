@@ -1,0 +1,6 @@
+# React app
+**/node_modules/
+**/.DS_Store
+**/bundle.js*
+**/public/assets
+**/.vscode
