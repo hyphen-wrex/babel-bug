@@ -6,7 +6,7 @@ import thunkMiddleware from 'redux-thunk';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
 
-import config from './config';
+import config, { af } from './config';
 
 console.log('config', config);
 const { KEY } = config;
@@ -35,6 +35,7 @@ const main = async function () {
   await getB();
 };
 
+af();
 main();
 
 const d = getD();

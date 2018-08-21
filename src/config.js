@@ -12,7 +12,7 @@ if (process.env.NODE_ENV === 'production') {
 
 export default confObj;
 
-export function lol() {
+export function af() {
   return async () => {
     await 25;
   };
