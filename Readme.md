@@ -11,5 +11,5 @@ npm run build
 # 4:
 npm run serve
 
-# 5: go to localhost:8080
+# 5: go to localhost:8081
 ```
